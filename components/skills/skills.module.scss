@@ -1,0 +1,88 @@
+
+.skillsWrapper{
+  margin-top:20vh;
+  @media screen and (max-width: 1280px) {
+    margin-top: 0vh;
+    
+  }
+  @media screen and (max-width: 768px) {
+    margin-top: 10vh;
+  }
+}
+.bigTitle {
+  font-family: font-file-82132;
+  position: absolute;
+  margin-left: 40vw;
+  z-index: 1;
+  font-size: 32rem;
+  color: rgba(255, 255, 255, 0.04);
+  @media screen and (max-width: 1280px) {
+    right: 0;
+    margin: 0;
+    font-size: 20rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 10rem;
+    text-align: center;
+    margin: 0;
+  }
+}
+.sphereWrapper {
+  width: fit-content;
+  height: fit-content;
+  background-color: #090909;
+  backdrop-filter: saturate(180%) blur(20px);
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 1280px) {
+    margin: 5vh 0;
+  }
+  @media screen and (max-width: 768px) {
+    margin: -5vh 0 10vh 0;
+    font-size: 24px;
+  }
+}
+.skills {
+  z-index: 5;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+.titleWrapper {
+  height: 25vh;
+  font-size: 48px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 5% 10%;
+  @media screen and (max-width: 1280px) {
+    padding: 10% 2% 5% 5%;
+    font-size: 36px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+    width: 100%;
+  }
+}
+.text {
+  z-index: 5;
+  height: 70vh;
+  width: 50;
+  font-size: 48px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 5% 2%;
+}
+.subtitle {
+  width: 50vw;
+  font-size: 30px;
+  line-height: 2;
+  margin-top: 5vh;
+  text-transform: uppercase;
+}

@@ -1,0 +1,80 @@
+.bannerWrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/static/me.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media screen and (max-width: 1280px) {
+ 
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    height: 70vh;
+    width: 100vw;
+    background: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.banner {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.85);
+  font-size: 98px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  padding-top: 8%;
+  @media screen and (max-width: 1280px) {
+    
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    padding: 1% 2%;
+    font-size: 46px;
+    height: 70vh;
+    width: 100vw;
+  }
+}
+.span {
+  color: #0e0e83;
+  opacity: 0.8;
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.button {
+  width: 15vw;
+  height: 6vh;
+  background-color: transparent;
+  border: 1px solid aqua;
+  color: white;
+  font-size: 1.5rem;
+  transition: 2s;
+  background: linear-gradient(to left, #090909 50%, #08fdd8 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+  @media screen and (max-width: 1280px) {
+    margin: 0;
+    height: 6vh;
+    width: 40vw;
+  }
+}
+.button:hover {
+  background-color: #08fdd8;
+  background-position: left;
+  color: black;
+}
+
+.buttonWrapper {
+  margin-top: 8vh;
+  width: 32vw;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
+    height: 15vh;
+    justify-content: space-between;
+  }
+}

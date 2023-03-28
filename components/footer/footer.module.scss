@@ -1,0 +1,104 @@
+.email {
+  font-size: 2.5rem;
+  color: #89715b;
+  text-decoration: none;
+  background: linear-gradient(to right, rgb(53, 65, 56), rgb(0, 0, 0)),
+    linear-gradient(
+      to right,
+      rgb(52, 67, 56),
+      rgb(233, 233, 233),
+      rgb(194, 194, 194)
+    );
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  cursor: none;
+  font-weight: 500;
+  @media screen and (max-width: 992px) {
+    font-size: calc(1.3rem + 0.6vw);
+    line-height: 1.32;
+    background: none;
+    text-decoration: underline;
+  }
+}
+.email:hover,
+.email:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+.br {
+  display: none;
+  @media screen and (max-width: 992px) {
+    display: flex;
+  }
+}
+
+.workT {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.32;
+  width: fit-content;
+  color: rgba(255, 255, 255, 0.5);
+  @media screen and (max-width: 992px) {
+    font-size: 20px;
+  }
+}
+
+.footer {
+  height: 90vh;
+  background-color: #090909;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  @media screen and (max-width: 992px) {
+    height: 70vh;
+    overflow-x: hidden;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.emailWrapper {
+  font-family: "Zilla Slab", serif;
+  width: 93%;
+  height: 30vh;
+  margin: 7% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 992px) {
+    margin: 30% 5%;
+  }
+}
+
+.contact {
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5%;
+  @media screen and (max-width: 992px) {
+    height: 40vh;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+    padding-bottom: 20%;
+  }
+}
+
+.link {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 2% 2%;
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  }
+  @media screen and (max-width: 992px) {
+    font-size: 20px;
+    margin: 5% 5% 0% 5%;
+    text-decoration: underline;
+  }
+}

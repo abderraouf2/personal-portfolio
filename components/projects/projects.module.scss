@@ -1,0 +1,202 @@
+.projectsWrapper {
+  // height: 110vh;
+  @media screen and (max-width: 1280px) {
+    height: fit-content;
+    padding-bottom: 10vh;
+  }
+  @media screen and (max-width: 768px) {
+    padding-bottom: 5vh;
+  }
+}
+
+.projectSlide {
+  height: 50vh;
+  width: 100vw;
+  @media screen and (max-width: 1280px) {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 768px) {
+  
+  }
+}
+
+.swiperWrapper {
+  height: 75vh;
+  width: 75vw;
+  overflow-x: hidden;
+  color: white;
+  @media screen and (max-width: 1280px) {
+    width: 90vw;
+    height: 70vh;
+  }
+  @media screen and (max-width: 768px) {
+    width: 90vw;
+    height: 50vh;
+    margin: -10vh;
+  }
+}
+.bigTitle {
+  font-family: font-file-82132;
+  position: absolute;
+  right: 0;
+  // margin-top: 20vh;
+  z-index: 1;
+  font-size: 32rem;
+  color: rgba(255, 255, 255, 0.04);
+  @media screen and (max-width: 1280px) {
+    right: 0;
+    margin-top: 0;
+    font-size: 20rem;
+    transform: none;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 10rem;
+    margin-left: -15vw;
+  }
+}
+.projectCard {
+  height: 70vh;
+  width: 80vw;
+  margin: 5% 10%;
+  display: flex;
+  flex-direction: row;
+  //   background-image: url("/static/me.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  @media screen and (max-width: 1280px) {
+    height: fit-content;
+  }
+  @media screen and (max-width: 768px) {
+    height: fit-content;
+    flex-direction: column;
+    width: 80vw;
+    margin:5vw;
+  }
+}
+.titleWrapper {
+  height: 25vh;
+  font-size: 48px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 5% 10%;
+  @media screen and (max-width: 1280px) {
+    padding: 12% 2% 5% 5%;
+    margin-bottom: 5vh;
+    font-size: 36px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+    margin-bottom: 0;
+    width: 100%;
+  }
+}
+.cardBg {
+  height: 70vh;
+  width: 45vw;
+  background-color: rgba(0, 0, 0, 0.604);
+  transition: 0.5s ease-out;
+  padding: 2%;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    background-position: left;
+  }
+  h3 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 56px;
+  }
+  h5 {
+    width: 60%;
+    margin-top: 5%;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 28px;
+  }
+  .button {
+    width: 15vw;
+    height: 6vh;
+    margin-top: 10vh;
+    background-color: transparent;
+    border: 1px solid #0e0e83;
+    color: white;
+    font-size: 1.5rem;
+    transition: 2s;
+    background: linear-gradient(to left, #090909 50%, #0e0e83 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+    :hover {
+      background-color: #08fdd8;
+      background-position: left;
+      color: black;
+    }
+  }
+  .buttonWrapper {
+    margin-top: 8vh;
+    width: 32vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 1280px) {
+    
+    h3 {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 48px;
+    }
+    h5 {
+      width: 90%;
+      margin-top: 5%;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 25px;
+    }
+    .button{
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    height: 40vh;
+    width: 90vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h3 {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 28px;
+    }
+    h5 {
+      width: 90%;
+      margin-top: 5%;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 15px;
+    }
+    .buttonWrapper {
+      margin-top: 2vh;
+      padding: 5%;
+      width: 80vw;
+      display: flex;
+      justify-content: space-between;
+    }
+    .button{
+      width: 35vw;
+    }
+  }
+}
+
+.imgWrapper{
+  width: 35vw;
+  height: 70vh;
+  img{
+    height: 100%;
+    width: 100%;
+  }
+  @media screen and (max-width: 1280px) {
+    
+  }
+  @media screen and (max-width: 768px) {
+    width: 90vw;
+    height: 40vh;
+  }
+}
