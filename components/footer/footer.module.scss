@@ -1,6 +1,6 @@
 .email {
   font-size: 2.5rem;
-  color: #89715b;
+  color: #0e0e83;
   text-decoration: none;
   background: linear-gradient(to right, rgb(53, 65, 56), rgb(0, 0, 0)),
     linear-gradient(
@@ -45,7 +45,7 @@
 }
 
 .footer {
-  height: 90vh;
+  height: 60vh;
   background-color: #090909;
   overflow: hidden;
   display: flex;
@@ -53,7 +53,7 @@
   align-items: center;
   flex-direction: column;
   @media screen and (max-width: 992px) {
-    height: 70vh;
+    height: 50vh;
     overflow-x: hidden;
     justify-content: flex-end;
     align-items: center;
@@ -71,6 +71,7 @@
   align-items: center;
   @media screen and (max-width: 992px) {
     margin: 30% 5%;
+    height: 10vh;
   }
 }
 
@@ -80,7 +81,7 @@
   justify-content: flex-end;
   margin-bottom: 5%;
   @media screen and (max-width: 992px) {
-    height: 40vh;
+    height: 30vh;
     justify-content: center;
     align-items: flex-end;
     margin: 0;

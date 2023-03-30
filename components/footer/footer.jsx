@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { Footer1,A,Email,Contact } from './footer.style';
 import { icons } from './icons';
 import styles from './footer.module.scss';
-import Cursor from '../cursor/cursor';
 import { Fade } from 'react-awesome-reveal';
 
 

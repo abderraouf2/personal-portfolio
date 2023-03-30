@@ -6,7 +6,6 @@ import cls from "classnames";
 import Mobile from "./Mobile";
 import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
-import { Slide } from "react-awesome-reveal";
 export default function NavBar() {
   const [color, setColor] = useState(false);
   const [width, setWidth] = useState("");
