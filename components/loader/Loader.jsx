@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./loader.module.scss";
-import { Montserrat } from "@next/font/google";
+import { Montserrat } from "next/font/google";
 import cls from "classnames";
 
 const font = Montserrat({
