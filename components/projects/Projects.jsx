@@ -18,7 +18,7 @@ import "swiper/css/scrollbar";
 import "swiper/css/effect-coverflow";
 export default function Projects() {
   return (
-    <div className={styles.projectsWrapper} id='projects'>
+    <div className={styles.projectsWrapper} id="projects">
       <div className={styles.bigTitle}>Work</div>
       <div className={styles.titleWrapper}>
         <h1>Recent Projects:</h1>
@@ -41,17 +41,18 @@ export default function Projects() {
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
       > */}
-        {DATA.map((project, index) => (
-          // <SwiperSlide key={index} className={styles.projectSlide}>
-            <ProjectCard
-              title={project.title}
-              description={project.description}
-              img={project.img}
-              url={project.url}
-              reverse= {project.revert}
-            />
-            ))}
-            {/* </SwiperSlide> */}
+      {DATA.map((project, index) => (
+        // <SwiperSlide key={index} className={styles.projectSlide}>
+        <ProjectCard
+          key={index}
+          title={project.title}
+          description={project.description}
+          img={project.img}
+          url={project.url}
+          reverse={project.revert}
+        />
+      ))}
+      {/* </SwiperSlide> */}
       {/* </Swiper> */}
     </div>
   );

@@ -5,7 +5,6 @@ export default function Skills() {
   const [width, setWidth] = useState('')
   useEffect(() =>{
     setWidth(window.innerWidth)
-    console.log(width);
   })
 
   return (

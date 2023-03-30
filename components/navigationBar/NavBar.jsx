@@ -22,7 +22,6 @@ export default function NavBar() {
   useEffect(() => {
     setTimeout(() => {
       setWidth(window.innerWidth);
-      console.log(width);
     }, 500);
   }, []);
 
