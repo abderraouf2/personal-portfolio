@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
-import Loader from "@/components/loader/Loader";
-import Banner from "@/components/banner/Banner";
-import NavBar from "@/components/navigationBar/NavBar";
-import About from "@/components/about/About";
-import Projects from "@/components/projects/Projects";
-import Skills from "@/components/skills/Skills";
-import Footer from "@/components/footer/footer";
+import styles from "../styles/Home.module.css";
+import Loader from "../components/loader/Loader";
+import Banner from "../components/banner/Banner";
+import NavBar from "../components/navigationBar/NavBar";
+import About from "../components/about/About";
+import Projects from "../components/projects/Projects";
+import Skills from "../components/skills/Skills";
+import Footer from "../components/footer/footer";
 export default function Home() {
   const [loading, setLoading] = useState(true);
 
