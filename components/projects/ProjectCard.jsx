@@ -4,7 +4,7 @@ import styles from "./projects.module.scss";
 import { Fade } from "react-awesome-reveal";
 import Link from "next/link";
 export default function ProjectCard(props) {
-  const { img, title, url, description, reverse } = props;
+  const { img, title, url, github, description, reverse } = props;
   const [show, setShow] = useState(false);
   const [width, setWidth] = useState("");
   useEffect(() => {
@@ -39,7 +39,7 @@ export default function ProjectCard(props) {
                 Live preview
               </motion.button>
             </Link>
-            <Link href=''>
+            <Link href={github}>
               <motion.button
                 className={styles.button}
                 whileHover={{

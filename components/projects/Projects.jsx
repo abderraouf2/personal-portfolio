@@ -48,6 +48,7 @@ export default function Projects() {
           title={project.title}
           description={project.description}
           img={project.img}
+          github={project.github}
           url={project.url}
           reverse={project.revert}
         />

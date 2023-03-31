@@ -8,6 +8,7 @@ export const DATA = [
     title:'Netflix-Clone',
     description:'An app made with NextJS, Hasura, GraphQL, youtube api. U can log in, like, dislike a video and watch them again ...',
     url:'https://netflix-clone-abderraouf2.vercel.app/',
+    github: 'https://github.com/abderraouf2/Netflix-clone',
     revert: true,
   },
   {
@@ -16,6 +17,7 @@ export const DATA = [
     title:'Clothing-Brand',
     description:'A website where you can view, add to a cart and pay for products (clothes)',
     url:'https://raoufs-clothing.herokuapp.com',
+    github:'https://github.com/abderraouf2/e-commerce',
     revert: false,
   }
   

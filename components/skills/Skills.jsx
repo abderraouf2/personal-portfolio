@@ -32,7 +32,6 @@ export default function Skills() {
               "HTML5",
               "CSS3",
               "SASS",
-              "Framer Motion",
               "JavaScript",
               "React-bootstrap",
               "JSON",
