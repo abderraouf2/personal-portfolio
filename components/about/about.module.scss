@@ -19,14 +19,14 @@
   }
 }
 .whyMe {
-  width: 90%;
+  width: 80%;
   height: 40vh;
-  margin: 0 8%;
+  margin: 0 10%;
   margin-top: 10vh;
   .cardWrapper {
     height: 80%;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 32% 32% 32%;
     grid-gap: 2%;
     margin: 0;
     @media screen and (max-width: 1280px) {
@@ -35,6 +35,7 @@
       margin-left: 5%;
     }
     @media screen and (max-width: 768px) {
+      width:90vw;
       grid-template-columns: 1fr;
       margin-bottom: 10vh;
     }
@@ -186,6 +187,7 @@
 .textWrapper {
   // background-image: url('/static/me.jpg');
   background-color: #090909;
+  padding: 2%;
 }
 .about {
   z-index: 5;
@@ -245,7 +247,8 @@
   font-size: 30px;
   line-height: 2;
   margin-top: 5vh;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  
   @media screen and (max-width: 1280px) {
     width: 100%;
     padding: 5% 2%;

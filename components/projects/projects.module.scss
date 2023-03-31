@@ -60,7 +60,7 @@
   }
 }
 .projectCard {
-  height: 50vh;
+  height: 60vh;
   width: 80vw;
   margin: 5% 10%;
   display: flex;
@@ -96,7 +96,7 @@
   }
 }
 .cardBg {
-  height: 70vh;
+  height: 60vh;
   width: 45vw;
   background-color: rgba(0, 0, 0, 0.604);
   transition: 0.5s ease-out;
@@ -127,8 +127,8 @@
     background: linear-gradient(to left, #090909 50%, #0e0e83 50%) right;
     background-size: 200%;
     transition: 0.5s ease-out;
+    cursor: pointer;
     :hover {
-      background-color: #08fdd8;
       background-position: left;
       color: black;
     }
@@ -187,7 +187,7 @@
 
 .imgWrapper{
   width: 35vw;
-  height: 70vh;
+  height: 60vh;
   img{
     height: 100%;
     width: 100%;
