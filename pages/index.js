@@ -33,8 +33,8 @@ export default function Home() {
             <Banner />
             <About />
             <Projects />
-            {/* <Skills />
-            <Footer /> */}
+            <Skills />
+            {/* <Footer /> */}
           </>
         )}
       </main>
