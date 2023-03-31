@@ -2,6 +2,7 @@ import React from "react";
 import { icons } from "./icons";
 import styles from "./footer.module.scss";
 import { Fade } from "react-awesome-reveal";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -14,7 +15,7 @@ export default function Footer() {
       </h1>
       <div className={styles.contact}>
         {icons.map((icon, index) => (
-          <a
+          <Link
             key={index}
             className={styles.link}
             style={{ cursor: "pointer", color: `${icon.color}` }}
@@ -22,7 +23,7 @@ export default function Footer() {
           >
             {" "}
             {icon.title}{" "}
-          </a>
+          </Link>
         ))}
       </div>
     </footer>
