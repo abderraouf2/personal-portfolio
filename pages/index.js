@@ -31,10 +31,10 @@ export default function Home() {
         ) : (
           <>
             <Banner />
-            <About />
+            {/* <About />
             <Projects />
             <Skills />
-            <Footer />
+            <Footer /> */}
           </>
         )}
       </main>

@@ -1,11 +1,8 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import styles from "./banner.module.scss";
-// import { motion } from "framer-motion";
 import NavBar from "../navigationBar/NavBar";
-import { useRef } from "react";
-import { motion } from "framer-motion";
-import { wrap } from "@motionone/utils";
+
 export default function Banner() {
   return (
     <div className={styles.bannerWrapper} id="home">
