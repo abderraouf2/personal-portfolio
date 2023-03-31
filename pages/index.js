@@ -34,7 +34,7 @@ export default function Home() {
             <About />
             <Projects />
             <Skills />
-            {/* <Footer /> */}
+            <Footer />
           </>
         )}
       </main>

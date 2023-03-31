@@ -39,14 +39,12 @@ export default function Footer() {
                     abderraouf.mimoune@inttic.dz
                   </Fade>
             </a>
-         {/* <Cursor mouseIn={mouseIn} cursorX={cursorX} cursorY={cursorY} text='send me an email' /> */}
           </h1>
           <div className={styles.contact}>
             {
               icons.map((icon, index)=><a key={index} className={styles.link} style={{cursor:'pointer', color:`${icon.color}`}} href={icon.to}> {icon.title} </a> )
             }
           </div>
-        {/* <a href="https://react-icons.github.io/react-icons/search?q=close" class="fa fa-twitter"></a>  */}
     </footer>
   )
 }
